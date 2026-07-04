@@ -44,6 +44,48 @@ pie showData
     "Low" : 14
 ```
 
+## Kapsanan Zafiyet Kategorileri
+
+| Kategori | Template |
+| --- | ---: |
+| Active Directory | `24` |
+| AI Application Security | `32` |
+| Algorithmic Biases | `3` |
+| Application Level Denial of Service (DoS) | `8` |
+| Automotive Security Misconfiguration | `40` |
+| Blockchain Infrastructure Misconfiguration | `2` |
+| Broken Access Control | `12` |
+| Broken Authentication and Session Management | `29` |
+| Client-Side Injection | `5` |
+| Cloud Security | `15` |
+| Cross-Site Request Forgery (CSRF) | `10` |
+| Cross-Site Scripting (XSS) | `18` |
+| Cryptographic Weakness | `40` |
+| Data Biases | `3` |
+| Decentralized Application Misconfiguration | `23` |
+| Developer Biases | `2` |
+| External Behavior | `13` |
+| Indicators of Compromise | `1` |
+| Insecure Data Storage | `8` |
+| Insecure Data Transport | `5` |
+| Insecure OS/Firmware | `20` |
+| Insufficient Security Configurability | `24` |
+| Lack of Binary Hardening | `5` |
+| Misinterpretation Biases | `2` |
+| Mobile Security Misconfiguration | `7` |
+| Network Security Misconfiguration | `2` |
+| Physical Security Issues | `6` |
+| Privacy Concerns | `3` |
+| Protocol Specific Misconfiguration | `5` |
+| Sensitive Data Exposure | `46` |
+| Server Security Misconfiguration | `107` |
+| Server-Side Injection | `29` |
+| Smart Contract Misconfiguration | `15` |
+| Societal Biases | `3` |
+| Unvalidated Redirects and Forwards | `8` |
+| Using Components with Known Vulnerabilities | `6` |
+| Zero Knowledge Security Misconfiguration | `7` |
+
 ## Ne İçeriyor?
 
 | İçerik | Durum |
