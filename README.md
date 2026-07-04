@@ -1,6 +1,6 @@
 # SysReptor Bugcrowd Templates
 
-[Turkish](README.md) | [English](README.en.md)
+[Turkish](README.tr.md) | [English](README.md)
 
 ![Templates](https://img.shields.io/badge/templates-588-2563eb)
 ![Languages](https://img.shields.io/badge/languages-en--US%20%7C%20tr--TR-16a34a)
@@ -144,9 +144,3 @@ Upstream repository: Bugcrowd `templates`. The upstream repository is licensed u
 - [Bugcrowd templates license](https://github.com/bugcrowd/templates/blob/master/LICENSE)
 - [SysReptor CLI template documentation](https://docs.sysreptor.com/cli/projects-and-templates/template/)
 - [SysReptor multilingual finding templates](https://docs.sysreptor.com/finding-templates/multilingual/)
-- [OWASP Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
-- [OWASP Unvalidated Redirects and Forwards Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)
-- [OWASP Server-Side Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
-- [OWASP File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
-- [OWASP Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
-- [CWE-804: Guessable CAPTCHA](https://cwe.mitre.org/data/definitions/804.html)
