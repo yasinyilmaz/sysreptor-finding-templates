@@ -1,4 +1,4 @@
-# SysReptor Bugcrowd Templates TR
+# SysReptor Bugcrowd Templates
 
 [Turkish](README.md) | [English](README.en.md)
 
