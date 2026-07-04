@@ -1,2 +1,152 @@
-# sysreptor-finding-templates
-emplates are blueprints for findings. They contain common description texts for findings and vulnerabilities, offering multi-language support in both Turkish and English.
+# SysReptor Bugcrowd Templates TR
+
+[Turkish](README.md) | [English](README.en.md)
+
+![Templates](https://img.shields.io/badge/templates-588-2563eb)
+![Languages](https://img.shields.io/badge/languages-en--US%20%7C%20tr--TR-16a34a)
+![SysReptor](https://img.shields.io/badge/SysReptor-importable%20tar.gz-7c3aed)
+![License](https://img.shields.io/badge/source%20license-GPL--3.0-f97316)
+
+A bilingual import package for using Bugcrowd report templates as SysReptor Finding Templates.
+
+The package includes both English and Turkish template content and can be imported directly through the SysReptor web interface.
+
+> This is not an official Bugcrowd or SysReptor release.
+
+## Quick Summary
+
+| Field | Value |
+| --- | ---: |
+| Total finding templates | `588` |
+| Language support | `en-US`, `tr-TR` |
+| SysReptor web import package | `sysreptor-bugcrowd-templates.tr.tar.gz` |
+| Web import package size | `384K` |
+| JSON package size | `2.6M` |
+| Placeholder validation | `0` mismatches |
+| Last validation | `2026-07-04` |
+
+## Severity Distribution
+
+| Severity | Count | Ratio |
+| --- | ---: | ---: |
+| Critical | `25` | `4.3%` |
+| High | `192` | `32.7%` |
+| Medium | `357` | `60.7%` |
+| Low | `14` | `2.4%` |
+| **Total** | **`588`** | **`100%`** |
+
+```mermaid
+pie showData
+    title SysReptor Template Severity Distribution
+    "Critical" : 25
+    "High" : 192
+    "Medium" : 357
+    "Low" : 14
+```
+
+## Contents
+
+| Content | Status |
+| --- | --- |
+| SysReptor Finding Templates | Ready |
+| English template text | Included |
+| Turkish template text | Included |
+| Severity fields | Included |
+| Tags | Included |
+| Web UI import archive | Included |
+
+## Preview
+
+English template view:
+
+![SysReptor English template preview](assets/sysreptor-template-english.png)
+
+Turkish template view:
+
+![SysReptor Turkish template preview](assets/sysreptor-template-turkish.png)
+
+## Published Files
+
+| File | Description |
+| --- | --- |
+| `sysreptor-bugcrowd-templates.tr.tar.gz` | Main package for importing through the SysReptor web interface |
+| `sysreptor-bugcrowd-templates.tr.json` | Full JSON package with English and Turkish translations |
+| `sysreptor-bugcrowd-templates.json` | English SysReptor template JSON output |
+
+## Import
+
+### SysReptor Web UI
+
+Upload the following file in the SysReptor finding template import area:
+
+```text
+sysreptor-bugcrowd-templates.tr.tar.gz
+```
+
+This file is the recommended package for web UI import.
+
+### SysReptor CLI
+
+To import the English + Turkish package with the CLI:
+
+```bash
+cat sysreptor-bugcrowd-templates.tr.json | reptor template
+```
+
+For the English-only package:
+
+```bash
+cat sysreptor-bugcrowd-templates.json | reptor template
+```
+
+## Validation
+
+Package validation summary:
+
+| Check | Result |
+| --- | ---: |
+| JSON template count | `588` |
+| `en-US` translations | `588` |
+| `tr-TR` translations | `588` |
+| Placeholder mismatches | `0` |
+| Severity distribution | Preserved |
+| Tar archive template count | `588` |
+
+## Integrity
+
+```text
+70160a9239dfb9c9f56d9413292e66edfea9b6c110dda23be8d6b13fafd853b6  sysreptor-bugcrowd-templates.tr.tar.gz
+```
+
+## Language Note
+
+The Turkish text is kept suitable for security report writing. Technical terms are left in English where appropriate or used together with their Turkish equivalents.
+
+Preserved fields:
+
+- SysReptor placeholders: `{{URL}}`, `{{screenshot}}`, `{{request}}`, etc.
+- Markdown code blocks
+- URL references
+- HTTP header and command examples
+- Standard security references such as CVE, OWASP, and CWE
+
+## Usage Note
+
+This package provides a starting point for faster report writing. Each finding should still be reviewed according to the target context, impact, exploitability, and program rules.
+
+## License
+
+Upstream repository: Bugcrowd `templates`. The upstream repository is licensed under GPL-3.0; redistribution and use should take GPL-3.0 obligations and upstream attribution requirements into account.
+
+## References
+
+- [Bugcrowd templates repository](https://github.com/bugcrowd/templates)
+- [Bugcrowd templates license](https://github.com/bugcrowd/templates/blob/master/LICENSE)
+- [SysReptor CLI template documentation](https://docs.sysreptor.com/cli/projects-and-templates/template/)
+- [SysReptor multilingual finding templates](https://docs.sysreptor.com/finding-templates/multilingual/)
+- [OWASP Vulnerable and Outdated Components](https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/)
+- [OWASP Unvalidated Redirects and Forwards Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)
+- [OWASP Server-Side Request Forgery Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [OWASP File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)
+- [OWASP Content Security Policy Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html)
+- [CWE-804: Guessable CAPTCHA](https://cwe.mitre.org/data/definitions/804.html)
